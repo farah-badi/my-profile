@@ -1,0 +1,140 @@
+/* Colors and fonts*/
+
+body {
+	background-color: #010204;
+    color: whitesmoke;
+    font-family: 'Slabo 27px', serif;
+    font-weight: lighter;
+}
+
+
+
+h1 {
+	color: ghostwhite;
+	font-weight: lighter;
+	font-size: 30px;
+	font-family: 'Abhaya Libre', serif;
+}
+
+h2 {
+	color: ghostwhite;
+	letter-spacing: 1px;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+a {
+text-decoration: none;
+color: #720000;
+}
+
+a:hover {
+	color: floralwhite;
+}
+
+
+
+
+/* Custome design with class */
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: #171717;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+.btn-white {
+	background-color: ghostwhite;
+	color: black;
+	padding: 10px 20px;
+}
+
+.btn-white:hover {
+	background-color: black;
+	color: ghostwhite;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+
+.list-inline i {
+	font-size: 70px;
+	color: #3b3b3b;
+}
+
+.list-inline i:hover {
+	color: ghostwhite;
+}
+
+
+
+
+/* Design adjustements */
+
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
